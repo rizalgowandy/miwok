@@ -19,7 +19,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         super(context, 0, words);
         mCategoryColor = color;
     }
-    
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
